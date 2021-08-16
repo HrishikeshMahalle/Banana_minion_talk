@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Qahiri&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background: #fff;
+}
+
+.header {
+    height: 70px;
+    background-color: #f2c94c;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    height: 100%;
+    max-width: 1200px;
+    padding: 0.625em;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.body {
+    text-align: center;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 1.25em auto;
+}
+
+.to {
+    margin: 0.625em;
+    padding: 0.625em;
+    font-size: 1em;
+    font-weight: 700;
+    color: #333;
+    outline: none;
+    letter-spacing: 1.5px;
+}
+
+.translate {
+    width: 8.75em;
+    height: 2.5em;
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.25em;
+    cursor: pointer;
+    border: 2px solid #f2c94c;
+    color: #f2b90e;
+    border-radius: 60% 40% / 50% 50%;
+    background: #fff;
+    letter-spacing: 0.125em;
+    font-weight: 800;
+}
+
+.scroll {
+    width: 46.875em;
+    height: 12.5em;
+    overflow: scroll;
+    padding: 0.625em;
+    margin: 0.625em;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+
+.text {
+    color: #333;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+.footer {
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background: #f2c94c;
+}
+
+p {
+    margin-top: 0.625em;
+    font-size: 1em;
+    font-weight: 700;
+    color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    textarea {
+        width: 27em;
+    }
+
+    .scroll {
+        width: 27em;
+    }
+
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 50ch;
+    }
+}
